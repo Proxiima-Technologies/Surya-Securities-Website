@@ -1060,7 +1060,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #64676c;
   line-height: 1.6;
   margin-bottom: 35px;
-  padding-right: 50px
+  padding-right: 50px;
+  padding: 20px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1163,6 +1164,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-tittle h2 {
+  color: #2c234d;
   font-size: 50px;
   display: block;
   font-weight: 600;
@@ -1225,6 +1227,63 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
   margin: 0
 }
+
+/* Leadership Section
+--------------------------------*/
+
+
+/* Evolution of Tech Section
+--------------------------------*/
+
+.section-title {
+  margin-bottom: 60px;
+}
+
+.section-title h2 {
+  margin-bottom: 20px;
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+.process:last-child .process-step:after {
+  display: none;
+}
+
+.process-step {
+  position: relative;
+  text-align: center;
+  padding: 35px;
+  margin-top: 30px;
+  -webkit-box-shadow: 0 14px 43px rgba(33, 54, 61, 0.15);
+  box-shadow: 0 14px 43px rgba(33, 54, 61, 0.15);
+}
+
+.process-step .process-icon {
+  height: 55px;
+  margin-bottom: 30px;
+  padding-top: 5px;
+}
+
+.process-step h4 {
+  margin-bottom: 15px;
+}
+
+.process-step p {
+  margin-bottom: 0;
+}
+
+.process-step:after {
+  position: absolute;
+  content: '';
+  width: 275px;
+  height: 56px;
+  top: -40px;
+  right: -40%;
+  background: url("../img/process-line.png") no-repeat scroll 0 0/cover;
+}
+
 
 
 /* Clients Section
