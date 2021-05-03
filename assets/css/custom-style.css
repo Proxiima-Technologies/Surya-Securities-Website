@@ -90,3 +90,16 @@
   z-index: -1;
   background-repeat: no-repeat;
 }
+
+.header-logo {
+  width: 100px;
+}
+
+.footer-logo {
+  width: 150px;
+}
+
+span.logo-text {
+  padding: 20px;
+  color: #fff;
+}
