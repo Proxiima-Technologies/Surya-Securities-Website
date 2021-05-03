@@ -1481,6 +1481,201 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
   margin: 0 2px;
 }
+/* What we are doing Section
+--------------------------------*/
+.support-company-area .support-location-img {
+  position: relative
+}
+
+.support-company-area .right-caption {
+  position: relative;
+  right: -50px
+}
+
+.section-tittle h2 {
+  color: #28395a;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 95px
+}
+
+@media (max-width: 767px) {
+  .section-tittle h2 {
+      font-size: 30px;
+      line-height: 1.4;
+      margin-bottom: 50px
+  }
+}
+
+.section-tittle span {
+  color: #fb246a;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+  display: block
+}
+
+.section-tittle.white-text h2 {
+  color: #fff
+}
+
+.small-section-tittle h4 {
+  color: #28395a;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 20px
+}
+
+.small-section-tittle2 h4 {
+  color: #1e2147;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 20px
+}
+
+.small-section-tittle2 .ion {
+  float: left;
+  padding-right: 16px
+}
+
+.section-tittle2 h2 {
+  margin-bottom: 35px
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .section-tittle2 h2 {
+      font-size: 43px
+  }
+}
+
+@media (max-width: 767px) {
+  .section-tittle2 h2 {
+      font-size: 29px
+  }
+}
+
+.support-company-area .right-caption .support-caption {
+  padding-right: 144px
+}
+
+@media (max-width: 767px) {
+  .support-company-area .right-caption .support-caption {
+      padding-right: 0px
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .support-company-area .right-caption .support-caption {
+      padding-right: 0px
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .support-company-area .right-caption .support-caption {
+      padding-right: 70px
+  }
+}
+
+.support-company-area .right-caption .support-caption p {
+  margin-bottom: 46px;
+  font-size: 15px
+}
+
+.support-company-area .right-caption .support-caption p.pera-top {
+  font-size: 17px;
+  font-weight: 700;
+  color: #0b0b2b
+}
+
+.post-btn {
+  border-radius: 5px;
+  padding: 30px 55px
+}
+
+.support-company-area .support-location-img img {
+  width: 100%
+}
+
+.support-company-area .support-location-img .support-img-cap {
+  position: absolute;
+  bottom: 0px;
+  background: #1f2b7b;
+  padding: 59px 28px;
+  border-radius: 5px;
+  left: -100px
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .support-company-area .support-location-img .support-img-cap {
+      padding: 27px 18px;
+      left: -59px
+  }
+}
+
+@media (max-width: 767px) {
+  .support-company-area .support-location-img .support-img-cap {
+      left: 0px;
+      padding: 35px 0px
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .support-company-area .support-location-img .support-img-cap {
+      left: 0px;
+      padding: 35px 18px
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .support-company-area .support-location-img .support-img-cap {
+      left: 0px;
+      padding: 35px 18px
+  }
+}
+
+.support-company-area .support-location-img .support-img-cap span {
+  font-size: 60px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Muli", sans-serif;
+  line-height: 1.2
+}
+
+@media (max-width: 767px) {
+  .support-company-area .support-location-img .support-img-cap span {
+      padding: 6px 40px;
+      font-size: 38px
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .support-company-area .support-location-img .support-img-cap span {
+      font-size: 35px
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .support-company-area .support-location-img .support-img-cap span {
+      font-size: 35px
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .support-company-area .support-location-img .support-img-cap span {
+      font-size: 35px
+  }
+}
+
+.support-company-area .support-location-img .support-img-cap P {
+  color: #fff;
+  line-height: 1;
+  margin: 0;
+  font-size: 20px
+}
+
 
 /* Contact Section
 --------------------------------*/
@@ -2388,3 +2583,4 @@ body.mobile-nav-active #mobile-nav-toggle {
                           position: relative; }
                           .ftco-section-parallax .heading-section-white h2 {
                             font-weight: 400 !important; }
+
