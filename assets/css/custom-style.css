@@ -323,6 +323,8 @@ border-color: transparent #dddddd transparent transparent;
   margin-bottom: 20px;
 }
 
+
+
 .brands-area .brand-wrap {
   padding: 40px 0;
 }
@@ -451,6 +453,128 @@ border-color: transparent #dddddd transparent transparent;
   height: inherit;
   width: inherit;
   border-radius: inherit;
+}
+
+.contact-wrap {
+  background: #fff;
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 30%);
+}
+
+@media (max-width: 767.98px) {
+  .info-wrap {
+    height: 400px;
+  }
+}
+
+.dbox {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 767.98px) {
+  .dbox {
+    margin-bottom: 25px !important;
+    padding: 0 20px;
+  }
+}
+
+.dbox p {
+  margin-bottom: 0;
+}
+
+.dbox p span {
+  font-weight: 500;
+  color: #000000;
+}
+
+.dbox p a {
+  color: #f07d29;
+}
+
+.dbox .icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #f07d29;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.dbox .icon span {
+  font-size: 30px;
+  color: #fff;
+}
+
+.dbox .text {
+  width: 100%;
+}
+
+.contactForm .label {
+  color: #f07d29 !important;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.contactForm .form-control {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+}
+
+.contactForm .form-control {
+  height: 36px;
+  background: #fff;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  border-radius: 2px;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.contactForm .form-control::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.contactForm .form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.contactForm .form-control:-ms-input-placeholder {
+  /* IE 0+ */
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.contactForm .form-control:-moz-placeholder {
+  /* Firefox 18- */
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.contactForm .form-control:focus,
+.contactForm .form-control:active {
+  border-color: #f07d29 !important;
+}
+
+.contactForm textarea.form-control {
+  height: inherit !important;
+}
+
+#map {
+  width: 100%;
+}
+
+@media (max-width: 767.98px) {
+  #map {
+    height: 300px;
+  }
+}
+
+.contact-wrap h3 {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 30px;
 }
 
 
