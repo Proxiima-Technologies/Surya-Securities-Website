@@ -105,12 +105,19 @@ span.logo-text {
 }
 
 .site-section {
-  padding: 4.5em 0;
+  padding: 3em 0;
+}
+
+.site-section h3 {
+  color: #28395a;
+  font-size: 36px;
+  font-weight: 500;
+  margin-top: 30px;
 }
 
 @media (min-width: 768px) {
   .site-section {
-    padding: 7em 0;
+    padding: 4em 0;
   }
 }
 
@@ -223,7 +230,7 @@ border-color: transparent #dddddd transparent transparent;
   background: #ffffff;
   position: relative;
   border-right: 5px solid #dddddd;
-  box-shadow: 0 0 60px rgba(0, 0, 0, .08);
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 20%);
 }
 
 .experience .timeline .timeline-item.right .timeline-text {
@@ -438,6 +445,12 @@ border-color: transparent #dddddd transparent transparent;
   .about-title h2 {
       font-size: 30px
   }
+}
+
+.service-overlay {
+  height: inherit;
+  width: inherit;
+  border-radius: inherit;
 }
 
 
