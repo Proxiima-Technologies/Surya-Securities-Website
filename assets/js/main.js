@@ -207,5 +207,29 @@
     $(this).css("background-image", "url(" + $(this).attr("data-background") + ")")
     });
 
+    $('.active-brand-carusel').owlCarousel({
+      items: 5,
+      loop: true,
+      margin: 30,
+      autoplayHoverPause: true,
+      smartSpeed:650,         
+      autoplay:true, 
+      responsive: {
+          0: {
+              items: 1
+          },
+          480: {
+              items: 2,
+          },
+          768: {
+              items: 4,
+          },
+          768: {
+              items: 5,
+          }
+      }
+  });
+
+  
 })(jQuery);
 
