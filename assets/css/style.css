@@ -2912,6 +2912,7 @@ span.ion-ios-arrow-forward {
   -ms-flex-preferred-size: 0;
   flex-basis: 0;
   -webkit-box-flex: 1;
+
   -ms-flex-positive: 1;
   flex-grow: 1;
   text-align: center;
@@ -2923,4 +2924,8 @@ span.ion-ios-arrow-forward {
 
 .ftco-section-parallax .heading-section-white h2 {
   font-weight: 400 !important;
+}
+
+.icons{
+  height: 80px;
 }

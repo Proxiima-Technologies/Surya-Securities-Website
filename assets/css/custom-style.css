@@ -330,7 +330,8 @@ border-color: transparent #dddddd transparent transparent;
 }
 
 .brands-area .brand-wrap .owl-carousel .owl-item img {
-  width: auto !important;
+  /* width: auto !important; */
+  height: 80px;
 }
 
 .brands-area .brand-wrap .single-brand {
