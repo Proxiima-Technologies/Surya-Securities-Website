@@ -1314,7 +1314,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 56px;
   top: -40px;
   right: -40%;
-  background: url("../img/process-line.png") no-repeat scroll 0 0/cover;
+  background: url("../img/hero/process-line.png") no-repeat scroll 0 0/cover;
 }
 
 
@@ -1835,6 +1835,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .contact-form-area .contact-form-wrapper form.contact-form input {
   height: 60px;
+  width: 100%;
+  color: #777777;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 9px 33px 9px 32px;
+  border-radius: 5px;
+  border: 1px solid #efebeb;
+  background: #fff;
+  margin-bottom: 20px
+}
+
+.contact-form-area .contact-form-wrapper form.contact-form textarea {
   width: 100%;
   color: #777777;
   font-size: 18px;

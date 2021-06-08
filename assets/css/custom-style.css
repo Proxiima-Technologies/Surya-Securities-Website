@@ -364,7 +364,6 @@ border-color: transparent #dddddd transparent transparent;
 }
 
 .brands-area .brand-wrap .owl-carousel .owl-item img {
-  /* width: auto !important; */
   height: 80px;
 }
 
@@ -881,8 +880,8 @@ ul.footer__widget-info {
   .square-details::before {
     position: absolute;
     content: '';
-    height: 20rem;
-    width: 20rem;
+    height: 18rem;
+    width: 18rem;
     border-radius: 3.8125rem;
     z-index: -1 !important;
     background-color: rgb(251 204 169);
@@ -894,8 +893,8 @@ ul.footer__widget-info {
   .square-details::before {
     position: absolute;
     content: '';
-    height: 20rem;
-    width: 20rem;
+    height: 18rem;
+    width: 18rem;
     border-radius: 3.8125rem;
     z-index: -1 !important;
     background-color: rgb(251 204 169);
@@ -910,8 +909,8 @@ ul.footer__widget-info {
   .square-details::before {
     position: absolute;
     content: '';
-    height: 20rem;
-    width: 20rem;
+    height: 18rem;
+    width: 18rem;
     border-radius: 3.8125rem;
     z-index: -1 !important;
     background-color: rgb(251 204 169);
@@ -1082,3 +1081,9 @@ ul.footer__widget-info {
 .fs-18 {
   font-size: 18px;
 }
+
+.width-100 {
+  width: 90%;
+}
+
+
