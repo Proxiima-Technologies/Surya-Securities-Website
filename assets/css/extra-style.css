@@ -1319,3 +1319,216 @@
    .pr-200 {
     padding-right: 200px;
   }
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+ 
+@media only screen and (max-width: 767px) {
+  .about-img-500 {
+    width: 330px;
+}
+
+.about-img-650 {
+  height: 400px;
+}
+
+.process-step:after { 
+ display: none;
+}
+
+.section-tittle p {
+ padding: 0px;
+}
+
+.logo-text {
+  display: none;
+}
+
+#header #logo img {
+  margin-top: 5px;
+  margin-left: -10px;
+}
+
+.section-tittle {
+   margin-bottom: 0px; 
+}
+
+#footer .footer-top .footer-info {
+  margin-left: 10px;
+}
+
+#footer .footer-top .footer-links {
+  margin-left: 10px;
+}
+
+#footer .footer-top .footer-contact {
+  margin-left: 10px;
+}
+
+#section-about-company {
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+#section-who-we-are {
+  padding-top: 60px; 
+}
+
+.ftco-section .section-tittle h2 {
+  padding: 0px 20px;
+  margin: 0px;
+}
+
+#section-services-need { 
+  padding-top: 20px; 
+}
+
+#section-services-need .section-tittle p{
+  padding: 0px 15px;
+  margin: 0px;
+}
+
+.mt-60 {
+  margin-top: 20px;
+}
+
+#testimonials .testimonial-item p {
+  font-style: unset;
+  font-size: 20px;
+  padding: 10px 20px 0px;
+  margin: 0px; 
+}
+
+.experience {
+  padding: 10px;
+}
+
+.brands-area1 {
+  padding: 30px 0px !important;
+}
+
+.about-area .about-left {
+  margin-bottom: 0px;
+  margin-top: 40px;
+}
+
+.about-area {
+  padding-bottom: 0px !important;
+}
+
+.about-details-cap {
+  padding-right: 0.5rem !important;
+}
+
+.about-details-cap p{ 
+  margin-top:20px !important;
+}
+
+.support-company-area {
+  padding-top: 10px !important;
+  padding-bottom: 20px !important; 
+}
+
+.founder-img {
+  padding: 280px 0px;
+  margin-left: 20px;
+  margin-right: 20px; 
+}
+
+.testimony-section {
+  padding: 3rem 0px;
+}
+
+.quote-div {
+  margin-top:70px;
+  margin-left:20px;
+}
+
+.services-section .ml-50 {
+  margin-left: 0px;
+}
+
+.our-portfolio {
+  padding-top: 60px;
+  margin-top: 0px;
+}
+
+.contact-form-area {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.slider-csr h2 {
+  margin: 15px 0px 0px;
+}
+
+.col-mleft-7 {
+  margin: 20px;
+}
+
+.p-top {
+ padding-top: 0px !important;
+}
+
+.row-pbottom-7 {
+  padding-bottom: 0px !important;  
+}
+
+.circle-blend {
+  padding-top: 10px !important;
+}
+
+.circle-blend1 {
+  padding-top: 30px !important;
+}
+
+.col-mleft1-7 {
+  margin: 20px !important;
+}
+
+.pb-80 {
+  padding-bottom: 60px;
+}
+.pt-80 {
+  padding-top: 60px;
+}
+
+.our-portfolio .hidden-content {
+  z-index: 4;
+  margin: 0px 20px;
+}
+
+.our-portfolio .showed-content {
+  margin: 30px 20px; 
+}
+
+.our-portfolio .item:hover .showed-content {
+  top: 40px;
+}
+
+.our-portfolio .section-heading h2 {
+  margin-bottom: 20px;
+}
+
+}
+ 
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+ 
+}
+  

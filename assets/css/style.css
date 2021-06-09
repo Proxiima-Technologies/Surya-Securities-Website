@@ -2586,7 +2586,7 @@ span.ion-ios-arrow-forward {
 
 .testimony-wrap .icon-quote {
   position: absolute;
-  top: -70px;
+  margin-top: -40px;
   left: 0;
 }
 
@@ -2605,6 +2605,12 @@ span.ion-ios-arrow-forward {
 .testimony-wrap .position {
   color: #000000;
   font-size: 18px;
+}
+
+.founder-img {
+  padding: 300px 0px;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 @media (max-width: 767.98px) {
@@ -2767,24 +2773,6 @@ span.ion-ios-arrow-forward {
   transition: all 0.3s ease;
 }
 
-.services-2 .icon:after {
-  position: absolute;
-  top: 50%;
-  right: 40px;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  content: '';
-  z-index: -1;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
 
 .services-2 .icon {
   background-position: center center;
