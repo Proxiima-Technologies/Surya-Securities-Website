@@ -208,7 +208,12 @@
           }
       }
   });
-
   
+  $(window).load(function() {
+    if( /Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+      $('.item1').css('background-image','url(assets/img/intro-carousel/6.png');
+    }
+  });
+
 })(jQuery);
 
